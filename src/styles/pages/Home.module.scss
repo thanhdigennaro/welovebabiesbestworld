@@ -1,0 +1,50 @@
+@import "styles/settings/__settings";
+
+.description {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.featuredWrap {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.featuredItem:nth-child(1) {
+  grid-column: span 8/span 12;
+}
+
+.featuredItem {
+  grid-column: span 4/span 12;
+}
+
+.posts {
+  // list-style: none;
+  // padding-left: 0;
+  // margin: -1rem 0;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+
+  // & > li {
+  //   margin: 4em 0;
+  //   display: grid;
+  //   grid-gap: 1rem;
+  //   grid-template-columns: repeat(3, 1fr);
+
+  //   &:first-child {
+  //     margin-top: 0;
+  //   }
+
+  //   &:last-child {
+  //     margin-bottom: 0;
+  //   }
+  // }
+
+  & > .card {
+
+  }
+}
